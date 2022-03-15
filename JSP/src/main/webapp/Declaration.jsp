@@ -40,7 +40,6 @@
 		if(num == 0){
 			return 1;
 		}
-
 		return 2 * squared2(num-1);
 	}
 %>
