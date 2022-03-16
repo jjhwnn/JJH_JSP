@@ -7,7 +7,7 @@
 <title>Function</title>
 </head>
 <body>
-<%!
+<%! 
 	public int sum(int a, int b){
 		return a + b;
 	}

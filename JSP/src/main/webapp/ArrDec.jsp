@@ -9,9 +9,11 @@
 </head>
 <body>
 <%
+
 	int[] iArr = {10, 20, 30};
 	out.print(Arrays.toString(iArr));
 	// Arrays.toString() :  배열을 한번에 보여주는 메서드
+	
 %>
 </body>
 </html>
