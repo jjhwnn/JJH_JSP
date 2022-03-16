@@ -1,4 +1,3 @@
-<%@page import="java.util.Arrays"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -8,10 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%
-	int[] iArr = {10, 20, 30};
-	out.print(Arrays.toString(iArr));
-	// Arrays.toString() :  배열을 한번에 보여주는 메서드
-%>
+	
+	<form action="addRequest02.jsp" method="post">
+		Num 1 : <input type="text" name="num1"><br>
+		Num 2 : <input type="text" name="num2"><br>
+		<input type="submit" name="addBtn" value="ADD">
+	</form>
+	
 </body>
 </html>

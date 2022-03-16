@@ -1,4 +1,3 @@
-<%@page import="java.util.Arrays"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -8,10 +7,14 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%
-	int[] iArr = {10, 20, 30};
-	out.print(Arrays.toString(iArr));
-	// Arrays.toString() :  배열을 한번에 보여주는 메서드
-%>
+	<h1>오늘의 메뉴</h1>
+	
+	- 삼계탕<br>
+	- 돈까스<br>
+	- 우동<br>
+	- 짬뽕<br>
+	<br>
+	<%--TodayTime.jsp --%>
+	<%@ include file="TodayTime.jsp" %>
 </body>
 </html>
