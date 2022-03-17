@@ -10,9 +10,9 @@
 <body>
 	<%
 		int quantity = Integer.parseInt(request.getParameter("quantity"));
-			String size = request.getParameter("size");
-			String color = request.getParameter("color");
-			String resultMessage;
+		String size = request.getParameter("size");
+		String color = request.getParameter("color");
+		String resultMessage;
 	
 			
 		if(quantity != 0 && size != null && color != null){

@@ -14,7 +14,6 @@
 			<input type="submit" name="resultBtn" value="BMI측정">
 	
 	</form>
-
 	
 </body>
 </html>
