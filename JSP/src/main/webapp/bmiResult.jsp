@@ -34,15 +34,13 @@
 		</tr>
 		
 		<tr>
-		
-		
-			<td width="40" height="50" align="center"><%result="저체중"?"^":" "%></td>
-			<td width="40" height="50" align="center"></td>
-			<td width="40" height="50" align="center"></td>
-			<td width="40" height="50" align="center"></td>
-			<td width="40" height="50" align="center"></td>
-			<td width="60" height="50" align="center"></td>
-			
+			<%-- 각각의 속성값에 삼항연산자를 넣어 해당값이 존재하면 애스타리스크 표시 --%>
+			<td width="40" height="50" align="center"><%=result=="저체중"?"***":" "%></td>
+			<td width="40" height="50" align="center"><%=result=="정상체중"?"***":" "%></td>
+			<td width="40" height="50" align="center"><%=result=="과체중"?"***":" "%></td>
+			<td width="40" height="50" align="center"><%=result=="비만"?"***":" "%></td>
+			<td width="40" height="50" align="center"><%=result=="고도비만"?"***":" "%></td>
+			<td width="60" height="50" align="center"><%=result=="초고도비만"?"***":" "%></td>
 			
 		</tr>
 	

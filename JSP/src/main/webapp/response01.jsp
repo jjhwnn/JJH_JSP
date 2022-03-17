@@ -13,7 +13,7 @@
 	<form action="response02.jsp" method="get">
 		사이트명 : <input type="text" name="sitename">
 				<input type="submit" value="확인">
-				(ex: naver, daum, google)
+				(ex: naver, daum, google, 네이버, ...)
 	</form>	
 </body>
 </html>
