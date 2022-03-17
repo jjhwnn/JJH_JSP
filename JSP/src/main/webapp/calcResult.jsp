@@ -26,9 +26,7 @@
 	<%=num1 %> <%=calc[i]%> <%=num2 %> = <%=calc(num1, num2, calc[i]) %><br>
 <%
 	}
-%>
-	
-	
+%>	
 </body>
 
 <%!

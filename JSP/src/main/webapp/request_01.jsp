@@ -4,7 +4,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<titl>이름 입력</title>
+		<title>이름 입력</title>
 	</head>
 	<body>
 		이름을 입력하고 확인 버튼을 누르세요<br><br>
@@ -13,6 +13,12 @@
 	  	이름 : <input type="text" name="name">
 	  			<input type="submit" value="확인">
 		</form>
+		<%
+			String name = "James";
+		%>
+		
+		<%-- URL에 직접 데이터를 넣을 수 있다. --%>
+		<a href="http://localhost:8080/JSP/request_02.jsp?name=<%=name%>">Click</a>
 		
 	</body>
 </html>
